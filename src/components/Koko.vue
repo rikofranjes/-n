@@ -1,5 +1,4 @@
 <template>
-    
 <div>
     <div class="inf">
       <div class="card" @click="tampilkanData('PUBG', '  adalah gim battle royale yang dirancang oleh Brendan Greene. Secara resmi, gim ini dirilis secara global pada bulan Maret 2018. Awalnya, PUBG tersedia untuk platform PC Windows melalui Steam, dan kemudian tersedia untuk Xbox One dan perangkat mobile seperti sekarang ini. Dalam gameplay-nya, ada 100 pemain yang bertempur untuk menjadi pemenang. ')">
@@ -58,21 +57,4 @@ export default {
 };
 </script>
 
-
-
-<style>
-
-.tampilan-data {
-  position: fixed; /* Menggunakan posisi tetap */
-  bottom: 25px; /* Atur posisi sesuai kebutuhan */
-  right: 274px; /* Atur posisi sesuai kebutuhan */
-  height: 170px;
-  width: 1000px; /* Lebar elemen data */
-  padding: 1px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  background-color: #f9f9f9;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan untuk efek */
-}
-</style>
 
